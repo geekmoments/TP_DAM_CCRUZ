@@ -46,7 +46,7 @@ npm install
 ```
 posteriormente ejecutamos el proyecto con
 
-````
+```
 ng serve -o
 ```
 Nos dirigimos a la ruta
