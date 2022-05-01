@@ -13,7 +13,7 @@ El proyecto es un desarrollo "fullstack", el cual tiene 4 partes:
 
 - frontend basado en Angular
 - backend basado en express
-- App movil basado en ionic
+- tp-app basado en ionic
 - Base de datos SQL implementada en MySQL
   
 ## configuración previa
@@ -73,12 +73,27 @@ para el caso de ver mediciones y ver riegos tenemos disponible un boton para pod
 
 # Ionic:
 
+capacitor core para poder llevar a los emuladores
 
+capacitor cli para ejecutar los comandos
 
+npm install --save @capacitor/core @capacitor/cli --save-exact
 
+npx cap init
+name:tp-app
+app package: ionic.dam.com
+gestor de dependencias: npm
 
+ejecutamos: ionic build
 
+Añadimos iOS
+npm install @capacitor/ios
+npx cap add ios
+npx cap open ios
 
-
+para poder sincronizar ios
+ionic build
+npx cap sync
+    npx cap copy
 
 
