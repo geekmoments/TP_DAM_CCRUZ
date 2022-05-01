@@ -71,7 +71,7 @@ Con el botón de ver riegos, podemos visualizar los datos tomados de la base de 
 
 para el caso de ver mediciones y ver riegos tenemos disponible un boton para poder cerrar esta vista si asi se desea
 
-
+# Ionic
 
 
 
