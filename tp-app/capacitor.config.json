@@ -1,6 +1,6 @@
 {
-	"appId": "io.ionic.starter",
-	"appName": "tp-app",
-	"webDir": "www",
-	"bundledWebRuntime": false
+  "appId": "ionic.dam.com",
+  "appName": "tp-app",
+  "webDir": "www",
+  "bundledWebRuntime": false
 }
