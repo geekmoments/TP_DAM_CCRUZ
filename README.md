@@ -72,10 +72,9 @@ Con el botón de ver riegos, podemos visualizar los datos tomados de la base de 
 para el caso de ver mediciones y ver riegos tenemos disponible un boton para poder cerrar esta vista si asi se desea
 
 # Ionic:
-
-capacitor core para poder llevar a los emuladores
-
-capacitor cli para ejecutar los comandos
+Para hacer pruebas de ios se usó el capacitor:
+  capacitor core para poder llevar a los emuladores
+  capacitor cli para ejecutar los comandos
 
 npm install --save @capacitor/core @capacitor/cli --save-exact
 
@@ -95,5 +94,14 @@ para poder sincronizar ios
 ionic build
 npx cap sync
     npx cap copy
+Acontinuación se tienen vistas de la versión en ionic:
+Home:
+<img width="552" alt="Screen Shot 2022-05-01 at 18 43 27" src="https://user-images.githubusercontent.com/70829024/166169422-3a37b6b7-6b51-46de-83ed-4eaafe7fd542.png">
+Dispositivo:<img width="468" alt="Screen Shot 2022-05-01 at 18 45 14" src="https://user-images.githubusercontent.com/70829024/166169508-336df6a9-41f4-42d8-af77-8757ab4ad34b.png">
+Mediciones:
+<img width="479" alt="Screen Shot 2022-05-01 at 18 44 39" src="https://user-images.githubusercontent.com/70829024/166169460-0efd003d-1296-4af2-a57f-9378cd857c71.png">
+Riegos:
+<img width="476" alt="Screen Shot 2022-05-01 at 18 45 48" src="https://user-images.githubusercontent.com/70829024/166169527-ab20d3a6-7b66-4d67-bb28-9b357cce52ce.png">
+
 
 
