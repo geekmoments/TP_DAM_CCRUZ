@@ -51,6 +51,25 @@ ng serve -o
 ```
 Nos dirigimos a la ruta
 
+http://localhost:4200/
+En la sieguiente imagen vemos una vista del proyecto en angular ejecutandose sin estilos
+Vista home:
+![Screen Shot 2022-05-01 at 12 59 55](https://user-images.githubusercontent.com/70829024/166158431-23aa2ca8-6b94-44ce-9ec8-c778f638ebda.png)
+
+Vista de un dispositivo con los botones de control y botones de acceso a los datos de mediciones y riego:
+
+![Screen Shot 2022-05-01 at 13 01 15](https://user-images.githubusercontent.com/70829024/166158550-bd4fbf6c-a468-432d-a915-26e8320b10d6.png)
+En esta ultima iamgen vemos que hay un input el funcionamiento de este input se activa cuando se abre la valvula y la simulación de lectura de datos se carga luego de cerrar la válvula, aqui realizamos varias acciones ya que tambien estamos haciendo un insert en la base de datos para registrar esta captura y al abrir la válvula tenemos una alert donde nos informa que se hizo esta acción con el registro de la misma
+![Screen Shot 2022-05-01 at 13 05 17](https://user-images.githubusercontent.com/70829024/166158677-58b98723-2c57-4c90-87f1-684683325fbb.png)
+
+Haciendo click en ver mediciones tenemos un historial de la lectura de datos que son tomados desde la base de datos, ademas se usaron directivas para poder pintar los recuadros para identificar por colores las lecturas del sensor, como se muestra acontinuación
+![Screen Shot 2022-05-01 at 13 07 32](https://user-images.githubusercontent.com/70829024/166158735-b9de0791-d601-47b4-b11b-ec8a12d35318.png)
+
+Con el botón de ver riegos, podemos visualizar los datos tomados de la base de datos cuando se registraron los logs, visualizando los estados de cada una de las acciones
+![Screen Shot 2022-05-01 at 13 09 19](https://user-images.githubusercontent.com/70829024/166158806-7052fc87-7af1-4257-9004-c2ee0d4f7fda.png)
+para el caso de ver mediciones y ver riegos tenemos disponible un boton para poder cerrar esta vista si asi se desea
+
+
 
 
 
