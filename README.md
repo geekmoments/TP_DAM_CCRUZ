@@ -66,6 +66,7 @@ Haciendo click en ver mediciones tenemos un historial de la lectura de datos que
 ![Screen Shot 2022-05-01 at 13 07 32](https://user-images.githubusercontent.com/70829024/166158735-b9de0791-d601-47b4-b11b-ec8a12d35318.png)
 
 Con el botón de ver riegos, podemos visualizar los datos tomados de la base de datos cuando se registraron los logs, visualizando los estados de cada una de las acciones
+
 ![Screen Shot 2022-05-01 at 13 09 19](https://user-images.githubusercontent.com/70829024/166158806-7052fc87-7af1-4257-9004-c2ee0d4f7fda.png)
 
 para el caso de ver mediciones y ver riegos tenemos disponible un boton para poder cerrar esta vista si asi se desea
